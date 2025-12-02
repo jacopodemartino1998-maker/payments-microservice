@@ -1,4 +1,4 @@
-package eu.proxima.payments;
+package eu.proxima.payments.model;
 
 import java.sql.Date;
 
