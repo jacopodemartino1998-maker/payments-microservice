@@ -18,6 +18,6 @@ public class CardPaymentRequestDTO {
     private String cvv;
     private String expiryDate; 
     private double amount;
-    private String currency;
+    private CurrencyType currency;
     private String beneficiary;
 }
