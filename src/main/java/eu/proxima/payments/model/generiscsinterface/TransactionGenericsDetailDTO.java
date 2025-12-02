@@ -1,4 +1,4 @@
-package eu.proxima.payments;
+package eu.proxima.payments.model.generiscsinterface;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

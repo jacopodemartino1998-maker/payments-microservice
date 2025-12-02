@@ -1,10 +1,14 @@
-package eu.proxima.payments;
+package eu.proxima.payments.model;
 
 import java.sql.Date;
 
 import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.CurrentTimestamp;
 
+import eu.proxima.payments.enums.CurrencyType;
+import eu.proxima.payments.enums.EntryType;
+import eu.proxima.payments.enums.TransactionType;
+import eu.proxima.payments.model.generiscsinterface.TransactionGenericsDetailDTO;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

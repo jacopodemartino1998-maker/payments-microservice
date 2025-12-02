@@ -1,4 +1,4 @@
-package eu.proxima.payments;
+package eu.proxima.payments.service;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -13,6 +13,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
+import eu.proxima.payments.model.response.TransactionResposneDto;
 import eu.proxima.payments.repositories.TransactionEntityRepository;
 import lombok.extern.slf4j.Slf4j;
 
@@ -32,7 +33,7 @@ public class PaymentService {
 
 	}
 
-	public ResponseEntity<List<TransactionDto>> getAllTransaction() {
+	public ResponseEntity<List<TransactionResposneDto>> getAllTransaction() {
 		log.info("Esecuzione del pagamento...");
 		log.debug("Debug del servizio PaymentService");
 		log.warn("Attenzione: simulazione warning dal PaymentService");
