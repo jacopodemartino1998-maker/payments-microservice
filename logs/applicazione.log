@@ -86,3 +86,682 @@
 2025-12-02T14:15:56.195+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
 2025-12-02T14:15:56.200+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
 2025-12-02T14:15:56.204+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-12-02T14:16:04.687+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:16:04.699+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:16:04.783+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-02T14:16:04.783+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-02T14:16:05.641+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:16:05.667+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:16:05.828+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:16:06.339+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:16:06.358+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:16:06.358+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:16:06.426+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1642 ms
+2025-12-02T14:16:06.610+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:16:06.693+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-02T14:16:07.257+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:16:07.298+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-12-02T14:16:07.492+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@367bb3bb
+2025-12-02T14:16:07.494+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-12-02T14:16:07.597+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:16:08.018+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:16:08.033+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:16:08.643+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T14:16:08.657+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Started PaymentsOrchestratorApplication in 4.619 seconds (process running for 6.06)
+2025-12-02T14:16:12.055+01:00  INFO 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02T14:16:12.056+01:00  INFO 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-12-02T14:16:12.062+01:00  INFO 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet                : Completed initialization in 5 ms
+2025-12-02T14:16:12.105+01:00  INFO 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] e.p.p.PaymentService                     : Esecuzione del pagamento...
+2025-12-02T14:16:12.105+01:00  WARN 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] e.p.p.PaymentService                     : Attenzione: simulazione warning dal PaymentService
+2025-12-02T14:16:12.105+01:00 ERROR 11676 --- [payments-orchestrator] [http-nio-8080-exec-1] e.p.p.PaymentService                     : Errore simulato nel PaymentService
+2025-12-02T14:21:16.178+01:00  INFO 11676 --- [payments-orchestrator] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 3 class path changes (0 additions, 0 deletions, 3 modifications)
+2025-12-02T14:21:16.768+01:00  INFO 11676 --- [payments-orchestrator] [Thread-1] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-02T14:21:17.005+01:00  INFO 11676 --- [payments-orchestrator] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2025-12-02T14:21:17.012+01:00  INFO 11676 --- [payments-orchestrator] [Thread-1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:17.019+01:00  INFO 11676 --- [payments-orchestrator] [Thread-1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-12-02T14:21:17.429+01:00  INFO 11676 --- [payments-orchestrator] [Thread-1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-12-02T14:21:18.418+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:21:18.420+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:21:20.631+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:21:20.655+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 6 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:21:20.856+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:21:21.131+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:21:21.138+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:21:21.138+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:21:21.263+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2827 ms
+2025-12-02T14:21:21.397+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:21:21.462+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:21:21.465+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Starting...
+2025-12-02T14:21:21.472+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a50db86
+2025-12-02T14:21:21.472+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-2 - Start completed.
+2025-12-02T14:21:21.476+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:21:21.510+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:21:21.512+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:21.881+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T14:21:21.909+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Started PaymentsOrchestratorApplication in 4.039 seconds (process running for 319.312)
+2025-12-02T14:21:21.912+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-02T14:21:23.233+01:00  INFO 11676 --- [payments-orchestrator] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+2025-12-02T14:21:23.238+01:00  INFO 11676 --- [payments-orchestrator] [Thread-7] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-02T14:21:23.256+01:00  INFO 11676 --- [payments-orchestrator] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2025-12-02T14:21:23.271+01:00  INFO 11676 --- [payments-orchestrator] [Thread-7] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:23.273+01:00  INFO 11676 --- [payments-orchestrator] [Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown initiated...
+2025-12-02T14:21:23.279+01:00  INFO 11676 --- [payments-orchestrator] [Thread-7] c.z.h.HikariDataSource                   : HikariPool-2 - Shutdown completed.
+2025-12-02T14:21:23.405+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:21:23.406+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:21:23.626+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:21:23.630+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:21:23.674+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:21:23.743+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:21:23.745+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:21:23.745+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:21:23.769+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 358 ms
+2025-12-02T14:21:23.811+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:21:23.848+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:21:23.849+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Starting...
+2025-12-02T14:21:23.855+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@514a0167
+2025-12-02T14:21:23.855+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-3 - Start completed.
+2025-12-02T14:21:23.858+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:21:23.877+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:21:23.878+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:24.062+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T14:21:24.084+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Started PaymentsOrchestratorApplication in 0.727 seconds (process running for 321.487)
+2025-12-02T14:21:24.086+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-12-02T14:21:57.299+01:00  INFO 11676 --- [payments-orchestrator] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2025-12-02T14:21:57.301+01:00  INFO 11676 --- [payments-orchestrator] [Thread-13] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-02T14:21:57.306+01:00  INFO 11676 --- [payments-orchestrator] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2025-12-02T14:21:57.309+01:00  INFO 11676 --- [payments-orchestrator] [Thread-13] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:57.310+01:00  INFO 11676 --- [payments-orchestrator] [Thread-13] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown initiated...
+2025-12-02T14:21:57.313+01:00  INFO 11676 --- [payments-orchestrator] [Thread-13] c.z.h.HikariDataSource                   : HikariPool-3 - Shutdown completed.
+2025-12-02T14:21:57.437+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:21:57.439+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:21:57.727+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:21:57.731+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:21:57.780+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:21:57.875+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:21:57.877+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:21:57.878+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:21:57.911+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 468 ms
+2025-12-02T14:21:57.966+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:21:58.011+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:21:58.013+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Starting...
+2025-12-02T14:21:58.019+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-4 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6213c3a5
+2025-12-02T14:21:58.019+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Start completed.
+2025-12-02T14:21:58.023+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:21:58.047+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:21:58.048+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:58.079+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:21:58.079+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:21:58.079+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown initiated...
+2025-12-02T14:21:58.081+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-4 - Shutdown completed.
+2025-12-02T14:21:58.082+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:21:58.089+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:21:58.122+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:21:59.774+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:21:59.775+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:21:59.958+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:21:59.962+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:22:00.001+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:22:00.073+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:22:00.076+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:22:00.076+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:22:00.131+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 352 ms
+2025-12-02T14:22:00.171+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:22:00.199+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:22:00.200+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Starting...
+2025-12-02T14:22:00.206+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-5 - Added connection com.mysql.cj.jdbc.ConnectionImpl@9caba29
+2025-12-02T14:22:00.207+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Start completed.
+2025-12-02T14:22:00.209+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:22:00.226+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:22:00.228+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:22:00.245+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:22:00.248+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:22:00.250+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown initiated...
+2025-12-02T14:22:00.251+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-5 - Shutdown completed.
+2025-12-02T14:22:00.252+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:22:00.256+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:22:00.259+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:24:18.236+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:24:18.239+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:24:18.495+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:24:18.501+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 3 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:24:18.591+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:24:18.690+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:24:18.691+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:24:18.692+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:24:18.717+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 454 ms
+2025-12-02T14:24:18.755+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:24:18.785+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:24:18.786+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Starting...
+2025-12-02T14:24:18.791+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-6 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14e64a23
+2025-12-02T14:24:18.791+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Start completed.
+2025-12-02T14:24:18.793+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:24:18.809+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:24:18.810+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:24:18.827+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:24:18.827+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:24:18.828+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown initiated...
+2025-12-02T14:24:18.829+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-6 - Shutdown completed.
+2025-12-02T14:24:18.830+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:24:18.833+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:24:18.836+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:25:06.071+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:25:06.072+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:25:06.359+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:25:06.361+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:25:06.402+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:25:06.476+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:25:06.478+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:25:06.478+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:25:06.510+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 434 ms
+2025-12-02T14:25:06.573+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:25:06.611+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:25:06.612+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Starting...
+2025-12-02T14:25:06.617+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-7 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5fc17292
+2025-12-02T14:25:06.617+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Start completed.
+2025-12-02T14:25:06.619+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:25:06.644+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:25:06.646+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:06.677+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:25:06.677+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:06.678+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown initiated...
+2025-12-02T14:25:06.679+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-7 - Shutdown completed.
+2025-12-02T14:25:06.680+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:25:06.684+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:25:06.687+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:25:27.372+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:25:27.373+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:25:27.546+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:25:27.550+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:25:27.605+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:25:27.720+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:25:27.722+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:25:27.723+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:25:27.760+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 383 ms
+2025-12-02T14:25:27.795+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:25:27.830+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:25:27.831+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Starting...
+2025-12-02T14:25:27.837+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50dd091b
+2025-12-02T14:25:27.837+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Start completed.
+2025-12-02T14:25:27.839+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:25:27.864+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:25:27.867+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:27.887+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:25:27.887+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:27.888+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown initiated...
+2025-12-02T14:25:27.889+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-8 - Shutdown completed.
+2025-12-02T14:25:27.890+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:25:27.894+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:25:27.897+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:25:30.513+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:25:30.514+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:25:30.765+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:25:30.769+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:25:30.834+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:25:30.905+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:25:30.906+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:25:30.906+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:25:30.959+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 440 ms
+2025-12-02T14:25:30.996+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:25:31.024+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:25:31.026+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Starting...
+2025-12-02T14:25:31.030+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6d7cdd19
+2025-12-02T14:25:31.031+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Start completed.
+2025-12-02T14:25:31.033+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:25:31.049+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:25:31.050+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:31.067+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:25:31.067+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:31.068+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown initiated...
+2025-12-02T14:25:31.069+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-9 - Shutdown completed.
+2025-12-02T14:25:31.070+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:25:31.073+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:25:31.077+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
+2025-12-02T14:25:41.114+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 11676 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T14:25:41.115+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T14:25:41.304+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T14:25:41.307+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2025-12-02T14:25:41.356+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T14:25:41.432+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T14:25:41.433+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T14:25:41.433+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T14:25:41.459+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 339 ms
+2025-12-02T14:25:41.497+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T14:25:41.529+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T14:25:41.530+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Starting...
+2025-12-02T14:25:41.535+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@490f4250
+2025-12-02T14:25:41.535+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Start completed.
+2025-12-02T14:25:41.537+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T14:25:41.557+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T14:25:41.557+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:41.585+01:00  WARN 11676 --- [payments-orchestrator] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+2025-12-02T14:25:41.586+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:25:41.587+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown initiated...
+2025-12-02T14:25:41.591+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-10 - Shutdown completed.
+2025-12-02T14:25:41.592+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Stopping service [Tomcat]
+2025-12-02T14:25:41.598+01:00  INFO 11676 --- [payments-orchestrator] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-12-02T14:25:41.601+01:00 ERROR 11676 --- [payments-orchestrator] [restartedMain] o.s.b.SpringApplication                  : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'paymentService' defined in file [C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes\eu\proxima\payments\PaymentService.class]: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1344) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1231) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:565) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:525) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:333) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:371) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:331) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:196) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1218) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1184) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1121) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:983) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:620) ~[spring-context-7.0.1.jar:7.0.1]
+	at org.springframework.boot.web.server.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:143) ~[spring-boot-web-server-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:765) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:454) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:321) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1374) [spring-boot-4.0.0.jar:4.0.0]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) [spring-boot-4.0.0.jar:4.0.0]
+	at eu.proxima.payments.PaymentsOrchestratorApplication.main(PaymentsOrchestratorApplication.java:10) [classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:52) [spring-boot-devtools-4.0.0.jar:4.0.0]
+Caused by: org.springframework.beans.BeanInstantiationException: Failed to instantiate [eu.proxima.payments.PaymentService]: Constructor threw exception
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:224) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:106) ~[spring-beans-7.0.1.jar:7.0.1]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1338) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 22 more
+Caused by: java.lang.Error: Unresolved compilation problems: 
+	The method of(E, E, E) in the type List is not applicable for the arguments (TransactionDto, TransactionDto, TransactionDto)
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+	The constructor TransactionDto(int, String, String) is undefined
+
+	at eu.proxima.payments.PaymentService.<init>(PaymentService.java:14) ~[classes/:?]
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:198) ~[spring-beans-7.0.1.jar:7.0.1]
+	... 24 more
+
