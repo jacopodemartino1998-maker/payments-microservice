@@ -6,5 +6,5 @@ import lombok.NoArgsConstructor;
 
 
 public interface TransactionGenericsDetailDTO {
-
+//interfaccia genererica per usarla in fase di creazione del ledger
 }

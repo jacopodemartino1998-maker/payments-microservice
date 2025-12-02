@@ -4,25 +4,15 @@ import java.sql.Date;
 
 import org.hibernate.annotations.CreationTimestamp;
 
-import eu.proxima.payments.enums.CurrencyType;
-import eu.proxima.payments.enums.EntryType;
-import eu.proxima.payments.enums.TransactionType;
-import eu.proxima.payments.model.generiscsinterface.TransactionGenericsDetailDTO;
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
 
-@Entity
+@Entity //tabella per transazioni in promemoria
 @Table(name = "pre_orders")
-@Data
-@NoArgsConstructor
-@AllArgsConstructor
 public class TransactionPreorder {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY )

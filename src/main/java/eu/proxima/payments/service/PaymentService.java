@@ -20,11 +20,10 @@ import lombok.extern.slf4j.Slf4j;
 @Service
 @Slf4j
 public class PaymentService {
-	
+
 	@Autowired
 	private TransactionEntityRepository transactionRep;
-	
-	
+
 	List<TransactionDto> tr = new ArrayList<>(List.of(new TransactionDto(1, "APPROVED", "transazione x approvata"),
 			new TransactionDto(2, "EXECUTER", "transazione x eseguita"),
 			new TransactionDto(3, "CANCELLED", "transazione x cancellata")));
@@ -45,7 +44,6 @@ public class PaymentService {
 		return ResponseEntity.ok().body(tr.get(id));
 	}
 
-
 	public ResponseEntity<TransactionDto> createTransaction(
 			@RequestBody TransactionCreateRequestDto transactionCreateDto) {
 
@@ -58,12 +56,29 @@ public class PaymentService {
 		// Restituisco il risultato con HTTP 201 Created
 		return ResponseEntity.status(HttpStatus.CREATED).body(savedTransaction);
 	}
-	
-	
-	public ResponseEntity<TransactionDto> modifieTransaction(@RequestBody TransactionCreateRequestDto transactionCreateDto,long id){
+
+	public ResponseEntity<TransactionDto> modifieTransaction(
+			@RequestBody TransactionCreateRequestDto transactionCreateDto, long id) {
 		transactionRep.findById(id);
-		
-		
+
+	}
+
+	public static String maskPanSafe(String pan) {
+		if (pan == null) {
+			return "****";
+		}
+
+		// Rimuove eventuali spazi o trattini
+		String cleanPan = pan.replaceAll("\\D", "");
+
+		if (cleanPan.length() < 4) {
+			return "****";
+		}
+
+		int visible = 4;
+		int maskLen = cleanPan.length() - visible;
+
+		return "*".repeat(maskLen) + cleanPan.substring(maskLen);
 	}
 
 }
