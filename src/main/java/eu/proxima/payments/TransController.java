@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("payments/v1")
-public class PyamentCardController {
+@RequestMapping("transaction/v1")
+public class TransController {
 	@Autowired
 	PaymentService ps ;
 
