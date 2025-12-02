@@ -37,6 +37,6 @@ public class LedgerEntity {
 	@Column(name = "entry_type", nullable = false)
 	private EntryType entryType;//Debit / Credi
 	@Column(name = "transaction_detail", nullable =  true )
-	private TransactionDetail trDetail;
+	private TransactionGenericsDetailDTO trDetail;
 	
 }
