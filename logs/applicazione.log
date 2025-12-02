@@ -1,0 +1,88 @@
+2025-12-02T10:32:21.609+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] e.p.p.DemoApplication                    : Starting DemoApplication using Java 21.0.9 with PID 10068 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T10:32:21.628+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] e.p.p.DemoApplication                    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T10:32:21.701+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-02T10:32:21.731+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-02T10:32:22.573+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T10:32:22.598+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-12-02T10:32:22.811+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=29e6c197-18d1-3cb9-9ace-21cdb2af2483
+2025-12-02T10:32:23.375+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T10:32:23.395+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T10:32:23.396+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T10:32:23.481+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1748 ms
+2025-12-02T10:32:23.684+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T10:32:23.749+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-02T10:32:24.301+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T10:32:24.343+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-12-02T10:32:24.530+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@621eb0bd
+2025-12-02T10:32:24.532+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-12-02T10:32:24.621+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T10:32:25.047+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T10:32:25.062+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T10:32:25.649+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T10:32:25.664+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] e.p.p.DemoApplication                    : Started DemoApplication in 4.685 seconds (process running for 6.05)
+2025-12-02T10:32:25.669+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] e.p.p.DemoApplication                    : Avvio applicazione, test logger dal main ok
+2025-12-02T10:32:25.669+01:00  INFO 10068 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentService                     : Esecuzione del pagamento...
+2025-12-02T10:32:25.669+01:00  WARN 10068 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentService                     : Attenzione: simulazione warning dal PaymentService
+2025-12-02T10:32:25.669+01:00 ERROR 10068 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentService                     : Errore simulato nel PaymentService
+2025-12-02T10:32:28.560+01:00  INFO 10068 --- [payments-orchestrator] [RMI TCP Connection(7)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-02T10:32:28.566+01:00  INFO 10068 --- [payments-orchestrator] [RMI TCP Connection(7)-127.0.0.1] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-02T10:32:28.574+01:00  INFO 10068 --- [payments-orchestrator] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2025-12-02T10:32:28.581+01:00  INFO 10068 --- [payments-orchestrator] [RMI TCP Connection(7)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T10:32:28.585+01:00  INFO 10068 --- [payments-orchestrator] [RMI TCP Connection(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-12-02T10:32:28.594+01:00  INFO 10068 --- [payments-orchestrator] [RMI TCP Connection(7)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.
+2025-12-02T12:52:50.772+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Starting PaymentsOrchestratorApplication using Java 21.0.9 with PID 6012 (C:\Users\Academy\Desktop\payments\payments-orchestrator\target\classes started by Academy in C:\Users\Academy\Desktop\payments\payments-orchestrator)
+2025-12-02T12:52:50.785+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : No active profile set, falling back to 1 default profile: "default"
+2025-12-02T12:52:50.882+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-12-02T12:52:50.883+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-12-02T12:52:51.861+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-12-02T12:52:51.888+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 0 JPA repository interfaces.
+2025-12-02T12:52:52.045+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.s.c.c.s.GenericScope                   : BeanFactory id=32b7284e-9456-36d3-b4c5-c6aec8a991e1
+2025-12-02T12:52:52.563+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat initialized with port 8080 (http)
+2025-12-02T12:52:52.582+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardService                  : Starting service [Tomcat]
+2025-12-02T12:52:52.582+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.a.c.c.StandardEngine                   : Starting Servlet engine: [Apache Tomcat/11.0.14]
+2025-12-02T12:52:52.651+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 1767 ms
+2025-12-02T12:52:52.834+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.h.j.i.u.LogHelper                      : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-12-02T12:52:52.922+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.h.Version                              : HHH000412: Hibernate ORM core version 7.1.8.Final
+2025-12-02T12:52:53.498+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-12-02T12:52:53.539+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Starting...
+2025-12-02T12:52:53.734+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] c.z.h.p.HikariPool                       : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7347825d
+2025-12-02T12:52:53.736+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] c.z.h.HikariDataSource                   : HikariPool-1 - Start completed.
+2025-12-02T12:52:53.827+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.h.o.c.pooling                          : HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/payments?useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=UTC]
+	Database driver: MySQL Connector/J
+	Database dialect: MySQLDialect
+	Database version: 8.4.6
+	Default catalog/schema: payments/undefined
+	Autocommit mode: undefined/unknown
+	Isolation level: REPEATABLE_READ [default REPEATABLE_READ]
+	JDBC fetch size: none
+	Pool: DatasourceConnectionProviderImpl
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-12-02T12:52:54.244+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-12-02T12:52:54.259+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T12:52:54.857+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] o.s.b.t.TomcatWebServer                  : Tomcat started on port 8080 (http) with context path '/'
+2025-12-02T12:52:54.871+01:00  INFO 6012 --- [payments-orchestrator] [restartedMain] e.p.p.PaymentsOrchestratorApplication    : Started PaymentsOrchestratorApplication in 4.828 seconds (process running for 6.471)
+2025-12-02T12:53:42.463+01:00  INFO 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] o.a.c.c.C.[.[.[/]                        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-02T12:53:42.465+01:00  INFO 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Initializing Servlet 'dispatcherServlet'
+2025-12-02T12:53:42.467+01:00  INFO 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] o.s.w.s.DispatcherServlet                : Completed initialization in 2 ms
+2025-12-02T12:53:42.533+01:00  INFO 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] e.p.p.PaymentService                     : Esecuzione del pagamento...
+2025-12-02T12:53:42.534+01:00  WARN 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] e.p.p.PaymentService                     : Attenzione: simulazione warning dal PaymentService
+2025-12-02T12:53:42.534+01:00 ERROR 6012 --- [payments-orchestrator] [http-nio-8080-exec-2] e.p.p.PaymentService                     : Errore simulato nel PaymentService
+2025-12-02T14:15:56.174+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-12-02T14:15:56.183+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] o.s.b.t.GracefulShutdown                 : Commencing graceful shutdown. Waiting for active requests to complete
+2025-12-02T14:15:56.189+01:00  INFO 6012 --- [payments-orchestrator] [tomcat-shutdown] o.s.b.t.GracefulShutdown                 : Graceful shutdown complete
+2025-12-02T14:15:56.195+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-12-02T14:15:56.200+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown initiated...
+2025-12-02T14:15:56.204+01:00  INFO 6012 --- [payments-orchestrator] [RMI TCP Connection(87)-127.0.0.1] c.z.h.HikariDataSource                   : HikariPool-1 - Shutdown completed.

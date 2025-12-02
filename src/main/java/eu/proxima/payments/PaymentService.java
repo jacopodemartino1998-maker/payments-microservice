@@ -1,0 +1,31 @@
+package eu.proxima.payments;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.slf4j.Logger;
+
+import org.slf4j.LoggerFactory;
+import org.springframework.http.ResponseEntity;
+import org.springframework.stereotype.Service;
+
+@Service
+public class PaymentService {
+	List<TransactionDto> tr = new ArrayList<>(List.of(new TransactionDto(1, "APPROVED", "transazione x approvata"),
+			new TransactionDto(2, "EXECUTER", "transazione x eseguita"),
+			new TransactionDto(3, "CANCELLED", "transazione x cancellata")));
+
+	private static final Logger log = LoggerFactory.getLogger(PaymentService.class);
+
+	public void processPayment() {
+
+	}
+
+	public ResponseEntity<List<TransactionDto>> getAllTransaction() {
+		log.info("Esecuzione del pagamento...");
+		log.debug("Debug del servizio PaymentService");
+		log.warn("Attenzione: simulazione warning dal PaymentService");
+		log.error("Errore simulato nel PaymentService");
+		return ResponseEntity.ok().body(tr);
+	}
+}
