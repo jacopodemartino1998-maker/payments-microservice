@@ -8,7 +8,8 @@ import lombok.NoArgsConstructor;
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class CardTransactionDetailDTO implements TransactionGenericsDetailDTO { //da allegare ad estratto conto
- private String maskedPan;
- private String beneficiary;
+public class TransferTransactionDetailDTO implements TransactionGenericsDetailDTO {
+ private String sourceIban;
+ private String beneficiaryIban;
+ private String beneficiaryName;
 }

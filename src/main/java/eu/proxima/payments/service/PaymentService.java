@@ -68,7 +68,6 @@ public class PaymentService {
 			return "****";
 		}
 
-		// Rimuove eventuali spazi o trattini
 		String cleanPan = pan.replaceAll("\\D", "");
 
 		if (cleanPan.length() < 4) {
