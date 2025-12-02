@@ -29,26 +29,23 @@ public class PaymentService {
 		log.error("Errore simulato nel PaymentService");
 		return ResponseEntity.ok().body(tr);
 	}
-	
-	public ResponseEntity<TransactionDto> getTransactionById(int id){
+
+	public ResponseEntity<TransactionDto> getTransactionById(int id) {
 		return ResponseEntity.ok().body(tr.get(id));
 	}
-	
-	
+
 	@PostMapping("/transactions")
 	public ResponseEntity<TransactionDto> createTransaction(
-	        @RequestBody TransactionCreateRequestDto transactionCreateDto) {
+			@RequestBody TransactionCreateRequestDto transactionCreateDto) {
 
-	    // Simuliamo la logica di salvataggio
-	    TransactionDto savedTransaction = new TransactionDto();
-	    savedTransaction.setId(1L);
-	    savedTransaction.setAmount(transactionCreateDto.getAmount());
-	    savedTransaction.setDescription(transactionCreateDto.getDescription());
+		// Simuliamo la logica di salvataggio
+		TransactionDto savedTransaction = new TransactionDto();
+		savedTransaction.setId(1L);
+		savedTransaction.setAmount(transactionCreateDto.getAmount());
+		savedTransaction.setDescription(transactionCreateDto.getDescription());
 
-	    // Restituisco il risultato con HTTP 201 Created
-	    return ResponseEntity
-	            .status(HttpStatus.CREATED)
-	            .body(savedTransaction);
+		// Restituisco il risultato con HTTP 201 Created
+		return ResponseEntity.status(HttpStatus.CREATED).body(savedTransaction);
 	}
 
 }
