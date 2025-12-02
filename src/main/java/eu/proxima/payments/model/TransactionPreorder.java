@@ -27,4 +27,6 @@ public class TransactionPreorder {
 	@Column(name = "execute_at",nullable = false, updatable = false)
 	@CreationTimestamp
 	private Date executedAt;
+	@Column(name = "update_at")
+	private Date updateAt;
 }
