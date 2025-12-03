@@ -1,6 +1,9 @@
 package eu.proxima.payments.model.exit;
 
-import java.sql.Date;
+import java.time.LocalDateTime;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Positive;
+import eu.proxima.payments.enums.PreorderStatus;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -13,10 +16,25 @@ import lombok.NoArgsConstructor;
 @Builder
 public class TransactionPreorderDTO {
 	private long id;
+
+	private String source_iban;
+
+	@NotBlank
 	private String beneficiary_iban;
+
+	private String beneficiary_name;
+
+	@Positive
 	private double amount;
+
 	private String message;
-	private Date executedAt;
-	private Date updateAt;
+
+	private PreorderStatus status;
+
+	private LocalDateTime executedAt;
+
+	private LocalDateTime updateAt;
+
+	private int retryCount;
 
 }

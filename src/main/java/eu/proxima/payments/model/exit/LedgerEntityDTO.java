@@ -1,7 +1,6 @@
 package eu.proxima.payments.model.exit;
 
-import java.sql.Date;
-
+import java.time.LocalDateTime;
 
 import eu.proxima.payments.enums.CurrencyType;
 import eu.proxima.payments.enums.EntryType;
@@ -20,8 +19,9 @@ public class LedgerEntityDTO {
 	private TransactionType transactionType;
 	private double amount;
 	private CurrencyType currencyType;
-	private Date executedAt;
-	private EntryType entryType;//Debit / Credi
+	private LocalDateTime executedAt;
+	private EntryType entryType;// Debit / Credi
 	private TransactionGenericsDetailDTO trDetail;
-	
+	private String externalOperationId;
+
 }

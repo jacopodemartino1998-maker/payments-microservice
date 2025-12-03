@@ -23,6 +23,7 @@ public class LedgerMapper {
         dto.setExecutedAt(entity.getExecutedAt());
         dto.setEntryType(entity.getEntryType());
         dto.setTrDetail(entity.getTrDetail());
+        dto.setExternalOperationId(entity.getExternalOperationId());
 
         return dto;
     }
@@ -48,6 +49,7 @@ public class LedgerMapper {
         entity.setExecutedAt(dto.getExecutedAt());
         entity.setEntryType(dto.getEntryType());
         entity.setTrDetail(dto.getTrDetail());
+        entity.setExternalOperationId(dto.getExternalOperationId());
 
         return entity;
     }
