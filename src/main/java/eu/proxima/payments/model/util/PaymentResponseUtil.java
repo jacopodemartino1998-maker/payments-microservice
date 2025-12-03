@@ -5,12 +5,12 @@ import java.util.UUID;
 import eu.proxima.payments.enums.OrderStatus;
 import eu.proxima.payments.model.generiscsinterface.TransactionGenericsDetailDTO;
 import eu.proxima.payments.model.response.PaymentExecutionResponseDTO;
- 
+
 public class PaymentResponseUtil {
- 
-    public static final OrderStatus STATUS_EXECUTED = OrderStatus.EXECUTED;
+
+    public static final OrderStatus STATUS_EXECUTED = OrderStatus.AUTHORIZED;
     public static final OrderStatus STATUS_REJECTED = OrderStatus.REJECTED;
- 
+
     /**
      * Costruisce una risposta di SUCCESSO.
      */
@@ -27,7 +27,7 @@ public class PaymentResponseUtil {
                 .rejectionReasonCode(null) // Nessun errore
                 .build();
     }
- 
+
     /**
      * Costruisce una risposta di ERRORE (Rejected).
      */

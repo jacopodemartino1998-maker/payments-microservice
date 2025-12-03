@@ -1,11 +1,6 @@
 package eu.proxima.payments.model.request;
 
-import java.sql.Date;
-
-import eu.proxima.payments.enums.CurrencyType;
-import eu.proxima.payments.enums.EntryType;
-import eu.proxima.payments.enums.TransactionType;
-import eu.proxima.payments.model.generiscsinterface.TransactionGenericsDetailDTO;
+import eu.proxima.payments.enums.CardType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -16,8 +11,11 @@ import lombok.NoArgsConstructor;
 public class CardPaymentRequestDTO {
     private String pan;
     private String cvv;
-    private String expiryDate; 
+    private String expiryDate;
     private double amount;
-    private CurrencyType currency;
-    private String beneficiary;
+    private CardType cardType; // DEBIT, PREPAID
+    private double internalAmount; // if prepaid
+    private String associateIban; // if debit
+    // private CurrencyType currency;
+    private String beneficiaryIban;
 }

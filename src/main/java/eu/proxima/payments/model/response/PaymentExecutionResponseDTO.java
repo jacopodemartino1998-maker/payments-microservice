@@ -12,11 +12,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @Builder
 public class PaymentExecutionResponseDTO {
-    private OrderStatus status;          // REJECTED EXECUTED
-    private String transactionId; 
-    private String sourceId;        // IBAN o PAN
+    private OrderStatus status; // REJECTED APPROVED
+    private String transactionId;
+    private String sourceId; // IBAN o PAN
     private double amount;
     private String rejectionReasonCode; // Se REJECTED
-    
-    private TransactionGenericsDetailDTO transactionGenericsDetail; //Dettagli specifici ib fase di response
+    private TransactionGenericsDetailDTO transactionGenericsDetail; // Dettagli specifici ib fase di response
 }

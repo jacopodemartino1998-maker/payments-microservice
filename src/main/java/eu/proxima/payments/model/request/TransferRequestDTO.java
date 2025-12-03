@@ -1,11 +1,5 @@
 package eu.proxima.payments.model.request;
 
-import java.sql.Date;
-
-import eu.proxima.payments.enums.CurrencyType;
-import eu.proxima.payments.enums.EntryType;
-import eu.proxima.payments.enums.TransactionType;
-import eu.proxima.payments.model.generiscsinterface.TransactionGenericsDetailDTO;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
@@ -15,8 +9,9 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 public class TransferRequestDTO {
     private String sourceIban;
-    private String beneficiaryIban; 
+    private String beneficiaryIban;
+    private String beneficiryName;
     private double amount;
     private String message;
-    private boolean isInstant; 
+    private boolean isInstant;
 }

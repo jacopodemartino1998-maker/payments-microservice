@@ -1,10 +1,7 @@
 package eu.proxima.payments.model;
 
 import java.sql.Date;
-
 import org.hibernate.annotations.CreationTimestamp;
-import org.hibernate.annotations.CurrentTimestamp;
-
 import eu.proxima.payments.enums.CurrencyType;
 import eu.proxima.payments.enums.EntryType;
 import eu.proxima.payments.enums.TransactionType;
@@ -20,27 +17,27 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 @Entity
-@Table(name ="transactions")
+@Table(name = "transactions")
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 public class LedgerEntity {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY )
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	@Column(name = "transaction_id")
 	private long id;
-	@Column(name="transaction_type" , nullable = false)
+	@Column(name = "transaction_type", nullable = false)
 	private TransactionType transactionType;
-	@Column(name = "amount",nullable = false)
+	@Column(name = "amount", nullable = false)
 	private double amount;
-	@Column(name = "currency_type",nullable = false)
+	@Column(name = "currency_type", nullable = false)
 	private CurrencyType currencyType;
-	@Column(name = "execute_at",nullable = false, updatable = false)
+	@Column(name = "execute_at", nullable = false, updatable = false)
 	@CreationTimestamp
 	private Date executedAt;
 	@Column(name = "entry_type", nullable = false)
-	private EntryType entryType;//Debit / Credi
-	@Column(name = "transaction_detail", nullable =  true )
+	private EntryType entryType;// Debit / Credi
+	@Column(name = "transaction_detail", nullable = true)
 	private TransactionGenericsDetailDTO trDetail;
-	
+
 }
